@@ -160,7 +160,7 @@ span.tiny {
   }
 
   /*WHAT IS HAPPENING HERE? */
-  span.noshow {
+  .noshow {
     display: none;
   }
 
