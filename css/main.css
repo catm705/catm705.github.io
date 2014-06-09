@@ -1,0 +1,325 @@
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+#wrapper {
+  width: 1400px;
+  height: 900px;
+  margin: 80px auto 0;
+  background-image: url(../images/resume-pic.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#header-name {
+  padding-top: 50px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+#header-name h1 {
+  font-size: 4em;
+  text-shadow: rgb(220, 189, 182) 1px 0px 2px, rgb(176, 49, 57) 1px 0.9756676334709009px 2px, rgb(220, 189, 182) 2px 0.9756676334709009px 2px, rgb(176, 49, 57) 2px 1.9513352669418018px 2px, rgba(33, 36, 39, 0.109804) 4px 0px 3px, rgba(33, 36, 39, 0.0980392) 2.980534106776721px 0.9756676334709009px 3px, rgba(33, 36, 39, 0.0941176) 1.9610682135534414px 1.9513352669418018px 3px, rgba(33, 36, 39, 0.0823529) 0.941602320330162px 2.9270029004127025px 3px, rgba(33, 36, 39, 0.0784314) -0.07786357289311725px 3.9026705338836036px 3px, rgba(33, 36, 39, 0.0745098) -1.0973294661163966px 4.878338167354504px 3px, rgba(33, 36, 39, 0.0666667) -2.116795359339676px 5.854005800825405px 3px, rgba(33, 36, 39, 0.0627451) -3.136261252562955px 6.829673434296306px 3px, rgba(33, 36, 39, 0.0588235) -4.155727145786234px 7.805341067767207px 3px, rgba(33, 36, 39, 0.054902) -5.175193039009514px 8.781008701238108px 3px, rgba(33, 36, 39, 0.0470588) -6.194658932232793px 9.756676334709008px 3px, rgba(33, 36, 39, 0.0431373) -7.214124825456072px 10.73234396817991px 3px, rgba(33, 36, 39, 0.0392157) -8.233590718679352px 11.70801160165081px 3px, rgba(33, 36, 39, 0.0313726) -9.25305661190263px 12.683679235121712px 3px, rgba(33, 36, 39, 0.027451) -10.27252250512591px 13.659346868592612px 3px, rgba(33, 36, 39, 0.0235294) -11.29198839834919px 14.635014502063513px 3px;
+}
+
+.navbar-header {
+  font-size: 1.2em;
+}
+
+#bubble2 {
+  color: white;
+  font-size: 1em;
+  opacity: 0.8;
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 80%);
+  background-repeat: repeat-x;
+  background-color: white;
+  position: relative;
+  -webkit-border-radius: 250px;
+     -moz-border-radius: 250px;
+       -o-border-radius: 250px;
+          border-radius: 250px;
+}
+
+#bubble2:hover {
+-webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+   -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+        box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
+  -webkit-transition: 300ms linear 0s;
+     -moz-transition: 300ms linear 0s;
+       -o-transition: 300ms linear 0s;
+          transition: 300ms linear 0s;
+   -webkit-transform: rotate(0deg) scale(1.07);
+      -moz-transform: rotate(0deg) scale(1.07);
+           transform: rotate(0deg) scale(1.07);
+
+}
+
+#bubble2 {
+  float: right;
+  width: 135px;
+  padding: 50px;
+  padding-top: 55px;
+  top: -60px;
+  right: 200px;
+}
+
+#bubble2 img {
+  width: 30px;
+  height:30px;
+}
+
+#bubble2 a:hover {
+  color: magenta;
+  text-shadow: none;
+  text-decoration: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -webkit-transition: 500ms linear 0s;
+     -moz-transition: 500ms linear 0s;
+       -o-transition: 500ms linear 0s;
+          transition: 500ms linear 0s;
+  outline: 0 none;
+}
+
+#bubble2 h3 {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+#bubble2 a {
+  color: silver;
+  font-variant: small-caps;
+}
+
+#bubble2 p {
+  font-weight: bold;
+}
+
+#bubble2 span.short_term{
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #00B6FF;
+}
+
+span.tiny {
+  font-size: .8em;
+  font-style: italic;
+}
+
+
+@media (max-width: 400px) {
+
+  #wrapper {
+    background-image: url(../images/landscape_bg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 900px;
+  }
+
+  #header-name {
+    position: relative;
+    left: 25px;
+  }
+
+  #header-name h1 {
+    position: relative;
+    top: 10px;
+    font-size: 2.2em;
+  }
+
+  #header-name p {
+    width: 200px;
+    position: relative;
+    left: 5px;
+  }
+
+  #bubble2 {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+    top: -165px;
+    left: -30px;
+    font-size: 0.8em;
+    padding: 15px;
+    width: 40px;
+    overflow: hidden;
+  }
+
+  #bubble2 img {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .container header h1 {
+    color: white;
+  }
+
+  .wrapper {
+    margin-left: -2%;
+  }
+
+  /*WHAT IS HAPPENING HERE? */
+  span.noshow {
+    display: none;
+  }
+
+  .container {
+    background-color: black;
+  }
+
+}
+
+@media (max-width: 320px) {
+
+  #wrapper {
+    /*background-image: url(../images/mobile_bg.jpg);*/
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 900px;
+  }
+
+  #header-name {
+    position: relative;
+    top: -50px;
+    left: 30px;
+  }
+
+  #header-name h1 {
+    position: relative;
+    top: -30px;
+    left: -20px;
+    font-size: 1.7em;
+  }
+
+  #header-name p {
+    position: relative;
+    top: -40px;
+    left: -19px;
+    font-size: 0.8em;
+    width: 175px;
+  }
+
+  #bubble2 {
+    position: relative;
+    top: -175px;
+    left: -120px;
+  }
+
+  .wrapper {
+    margin-left: -8%;
+  }
+
+  span.noshow {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-device-width: 480px) {
+
+  #wrapper {
+    width: 480px;
+    height: 900px;
+    background-image: url(../images/mobile_bg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    width: 480px;
+  }
+
+  #header-name {
+    position: relative;
+    top: -50px;
+    left: 40px;
+  }
+
+  #header-name h1 {
+    position: relative;
+    top: -20px;
+    left: -15px;
+    font-size: 2.5em;
+  }
+
+  #header-name p {
+    position: relative;
+    top: -30px;
+    left: -19px;
+  }
+
+  #bubble2 {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+    top: -150px;
+    left: -50px;
+    font-size: 0.9em;
+    padding: 40px;
+    padding-left: 20px;
+    width: 85px;
+  }
+
+  #bubble2 img {
+    width: 50px;
+    height:30px;
+  }
+
+/*  span.noshow {
+    display: none;
+  }*/
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-device-width : 320px) {
+  #wrapper {
+    width: 960px;
+    height: 900px;
+    background-image: url(../images/mobile_bg.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    width: 960px;
+  }
+
+  #header-name {
+    position: relative;
+    top: -30px;
+    left: 15px;
+  }
+
+  #header-name p {
+    left: 10px;
+  }
+
+  #bubble2 {
+    background-image: none;
+    background-color: transparent;
+    position: relative;
+    top: -175px;
+    left: -250px;
+    font-size: 0.9em;
+    padding: 40px;
+    width: 20px;
+  }
+
+  #bubble2 img {
+    width: 50px;
+  }
+
+  span.noshow {
+    display: none;
+  }
+
+  .wrapper {
+    margin-left: -5%;
+  }
+
+}

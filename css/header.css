@@ -1,0 +1,133 @@
+body {
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  overflow-x:hidden;
+}
+
+.navbar {
+  height: 50px;
+  background-image: linear-gradient(to bottom,#9e9e9e 0,#222 100%);
+  background-repeat: repeat-x;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+nav {
+  width: 750px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #aaf;
+  text-shadow: none;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  -webkit-transition: 500ms linear 0s;
+     -moz-transition: 500ms linear 0s;
+       -o-transition: 500ms linear 0s;
+          transition: 500ms linear 0s;
+  outline: 0 none;
+}
+
+#hamburger {
+    border: 1px solid #374C77;
+    border-radius: 3px 3px 3px 3px;
+    cursor: pointer;
+    display: none;
+    height: 24px;
+    padding: 3px 4px 3px;
+    position: relative;
+    left: 25px;
+    width: 25px;
+    background: #4569b2;
+    background: -moz-linear-gradient(top,  #4569b2 0%, #4062a5 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4569b2), color-stop(100%,#4062a5));
+    background: -webkit-linear-gradient(top,  #4569b2 0%,#4062a5 100%);
+    background: -o-linear-gradient(top,  #4569b2 0%,#4062a5 100%);
+    background: -ms-linear-gradient(top,  #4569b2 0%,#4062a5 100%);
+    background: linear-gradient(to bottom,  #4569b2 0%,#4062a5 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4569b2', endColorstr='#4062a5',GradientType=0 );
+}
+
+/*
+The white stripes in the hamburger button
+*/
+
+#hamburger {
+  position: fixed;
+  top: 8px;
+  left: 25px;
+}
+
+#hamburger div {
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 2px 2px 2px 2px;
+    height: 2px;
+    width: 90%;
+    margin-top: 3px;
+}
+
+.clear {
+  clear: both;
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+.navbar-header {
+  padding-top: 8px;
+  font-size: 1.2em;
+}
+
+/*FOOTER*/
+footer {
+  height: 30px;
+  opacity: 0.7;
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+  background-repeat: repeat-x;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: grey;
+  font-size: 12px;
+  font-style: italic;
+  padding: 10px;
+  line-height: 2.5em;
+}
+
+@media only screen and (max-width:585px){
+    #hide {
+      display: none;
+    }
+
+    #hamburger {
+      display: block;
+    }
+
+    ul.nav.navbar-nav {
+      float: none;
+    }
+
+  .navbar .nav > li {
+    float: none;
+    width: 250px;
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+    background-color: black;
+  }
+}

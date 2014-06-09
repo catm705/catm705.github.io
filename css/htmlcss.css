@@ -1,0 +1,199 @@
+body {
+  padding-top: 70px;
+  font-family: "Raleway", sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.navigation {
+	margin: 0 auto;
+	width: 750px;
+}
+
+#bargraph a {
+	width: 160px;
+	float: left;
+	text-align: center;
+	color: silver;
+	text-decoration: none;
+	line-height: 3em;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: magenta;
+}
+
+.heading {
+	width:100%;
+	top:0;
+	position:fixed;
+	text-align:center;
+	padding:10px 0;
+	margin:0 auto;
+	font-size:40px;
+	color:#FFFFFF;
+	text-shadow:0 2px 2px #333;
+}
+
+
+/*********** HTML Tables on HTML/CSS Page **************/
+#container {
+	height: 40px;
+	width: 680px;
+	margin: 0px auto;
+	padding: 0 10px 70px 10px;
+	margin-bottom: 50px;
+}
+
+#container a {
+	color: pink;
+}
+
+#container a:hover {
+	color: magenta;
+}
+
+#wrapper1 {
+	height: 328.5px;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	padding: 50px;
+	background-color: white;
+}
+
+#wrapper1 th {
+	padding-bottom: 5px;
+	font-weight: 900;
+}
+
+#wrapper1 tr.underline {
+	border-bottom: 1px solid grey;
+}
+
+#webpage {
+	border: 1px solid grey;
+}
+
+#wrapper2 {
+	height: 335px;
+	width: 600px;
+	margin: 20px auto;
+	padding: 50px;
+	padding-top: 20px;
+	background-color: white;
+}
+
+#wrapper2 a, #wrapper3 a, #wrapper4 a, #wrapper5 a, #wrapper6 a, #wrapper7 a {
+	position: relative;
+	top: 10px;
+}
+
+#wrapper3 {
+	height: 175px;
+	width: 600px;
+	margin: 20px auto;
+	padding: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: white;
+}
+
+table {
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+td {
+	padding: 5px;
+}
+
+caption {
+	padding-bottom: 10px;
+}
+
+table.gradienttable {
+	font-family: verdana,arial,sans-serif;
+	font-size:14px;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+}
+table.gradienttable th {
+	padding: 0px;
+	background: #d5e3e4;
+	background: -moz-linear-gradient(top,  #d5e3e4 0%, #ccdee0 40%, #b3c8cc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5e3e4), color-stop(40%,#ccdee0), color-stop(100%,#b3c8cc));
+	background: -webkit-linear-gradient(top,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	background: -o-linear-gradient(top,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	background: -ms-linear-gradient(top,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	background: linear-gradient(to bottom,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	border: 1px solid #999999;
+}
+table.gradienttable td {
+	padding: 0px;
+	background: #ebecda;
+	background: -moz-linear-gradient(top,  #ebecda 0%, #e0e0c6 40%, #ceceb7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebecda), color-stop(40%,#e0e0c6), color-stop(100%,#ceceb7));
+	background: -webkit-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	background: -o-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	background: -ms-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	background: linear-gradient(to bottom,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	border: 1px solid #999999;
+}
+table.gradienttable th p {
+	margin:0px;
+	padding:8px;
+	border-top: 1px solid #eefafc;
+	border-bottom:0px;
+	border-left: 1px solid #eefafc;
+	border-right:0px;
+}
+table.gradienttable td p {
+	margin:0px;
+	padding:8px;
+	border-top: 1px solid #fcfdec;
+	border-bottom:0px;
+	border-left: 1px solid #fcfdec;;
+	border-right:0px;
+}
+
+/*********** HTML EMAIL TEMPLATE ***************/
+#wrapper4 {
+	height: 1400px;
+	width: 600px;
+	margin: 20px auto;
+	padding: 50px;
+	background-color: white;
+}
+
+#htmlemailtemplate {
+	padding-bottom: 70px;
+}
+
+#wrapper4 table, #wrapper5 table, #wrapper6 table {
+	margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

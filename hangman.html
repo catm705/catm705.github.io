@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Hangman</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/hangman.css">
+	</head>
+	<body>
+		<div id="wrapper" class="gradient">
+			<header>
+				<h1><a href="index.html">Hangman</a></h1>
+			</header>
+
+				<div class="headings" class="clearfix">
+					<div class="header"><span class="titles">Guessed Letters</span></div>
+					<div class="header"><span id="two" class="titles">Guess Countdown</span></div>
+					<div class="header"><span id="three" class="titles">Your Man</span></div>
+				</div>
+
+				<div id="guessed_letters_box">
+					<ul id="guessed_letters">
+					</ul>
+				</div>
+
+				<div id="countdown">
+					<div id="num_guesses"></div>
+				</div>
+
+				<div id="hangman"><img src="images/hangman.gif"></div>
+
+			<!--Correct letters/answer section-->
+			<div id="main" class="clearfix">
+			</div>
+
+			<div id="guessing_area">
+				<div class="headings" class="clearfix">
+					<div class="header2">Guess letters</div>
+					<div class="header2">Guess the answer!</div>
+				</div>
+
+				<div id="letters_area">
+					<div class="centering">
+						<form id="guess_form">
+							<input type="text" id="letter_guess" autocomplete="off">
+							<input type="submit" id="letter_submit">
+						</form>
+					</div>
+				</div>
+
+				<div id="word_area">
+					<div class="centering">
+						<input type="text" id="word_answer">
+						<input type="submit" id="submit_word_answer">
+					</div>
+				</div>
+			</div>
+			<div class="centering">
+				<p style="text-align: center;">
+					<a href="index.html" style="color: white; text-decoration: none; font-size: 1.5em;">Go Back</a>
+				</p>
+			</div>
+
+		</div>
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/hangman.js"></script>
+	</body>
+</html>

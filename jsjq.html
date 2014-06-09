@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>NY Web Developer</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+     <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300' rel='stylesheet' type='text/css'>
+     <link href="css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/code.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/demo.css">
+    <link rel="stylesheet" href="css/tt1.css">
+
+</head>
+<body>
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="navbar-header">
+        <ul id="hide" class="nav navbar-nav">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="resume.html">RESUME</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">PET PROJECT SITES <b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="http://www.davecatweb.com" target="_blank">DaveCatWeb</a></li>
+              <li><a href="http://audioavatar2.herokuapp.com/" target="_blank">Audio Avatar</a></li>
+              <!-- <li><a href="audiobpm.html" target="_blank">Audio BPM</a></li> -->
+              <li><a href="http://rendezvousnyc.herokuapp.com" target="_blank">RendezvousNYC</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle active" data-toggle="dropdown">CODE SAMPLES<b class="caret"></b></a>
+            <ul class="dropdown-menu">
+              <li><a href="htmlcss.html">HTML/CSS</a></li>
+              <li><a href="html5css3.html">HTML5/CSS3</a></li>
+              <li><a href="jsjq.html">JavaScript/jQuery</a></li>
+              <li><a href="hangman.html">Hangman w/jQuery</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div id="hamburger">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div><!--/.nav-collapse -->
+    </div>   <!-- END OF MENU NAVBAR -->
+
+	<div id="top"></div>
+	<div id="wrapper">
+		<nav id="bargraph">
+			<ul>
+				<li><a href="#calculator">Calculator</a></li>
+				<li><a href="#coloranimator">Color Animator</a></li>
+				<li><a href="#grocerylist">Grocery List</a></li>
+				<li><a href="#loremipsum">Lorem Generator</a></li>
+				<li><a href="#carousel">Carousel</a></li>
+			</ul>
+		</nav>
+	</div>
+<div class="clear"></div>
+
+	<div id="calculator" class="wrapper2">
+    <h4><em>A few simple JavaScript examples</em></h4>
+		<h2>Calculator</h2>
+		<div id="addition">
+			<input type="text" id="addition1"></input> + &nbsp;<input type="text" id="addition2"></input> = <input type="text" id="additionsolution"></input>
+		</div>
+
+		<div id="subtraction">
+			<input type="text" id="subtraction1"></input> - &nbsp;<input type="text" id="subtraction2"></input> = <input type="text" id="subtractionsolution"></input>
+		</div>
+
+		<div id="multiplication">
+			<input type="text" id="multiplication1"></input> * &nbsp;<input type="text" id="multiplication2"></input> = <input type="text" id="multiplicationsolution"></input>
+		</div>
+
+		<div id="division">
+			<input type="text" id="division1"></input> / <input type="text" id="division2"></input> = <input type="text" id="divisionsolution"></input>
+		</div>
+
+		<div id="modulus">
+			<input type="text" id="modulus1"></input> % <input type="text" id="modulus2"></input> = <input type="text" id="modulussolution"></input>
+		</div>
+	</div><!-- END OF #CALCULATOR -->
+
+	<div id="coloranimator" class="wrapper3">
+		<h1>Color Animation</h1>
+	 	<div id="sliderbox">
+ 			<div  id="colorchoice">
+ 			</div>
+ 			<div id="slider1" class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+ 			<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+
+ 			<div id="slider2" class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+ 			<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0%;"></a></div>
+
+ 			<div id="slider3" class="slider ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false">
+ 			<a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 36.07843137254902%;"></a></div>
+
+ 			<div class="clear"></div>
+ 			 <button id="capturecolor">Animate Color</button>
+ 		</div>
+ 		<a href="#top">Back to Top</a>
+ 	</div>
+
+ 	<div id="grocerylist" class="wrapper3">
+	  	<div class="list">
+		  	<h1>My Grocery List</h1>
+		  	<button id="grocery">Start List</button>
+		  	<ul id="mylist">
+		  	</ul>
+	 	</div>
+	 	<a href="#top">Back to Top</a>
+	</div>
+
+	<div id="loremipsum" class="wrapper4">
+	 	<div id="container">
+		  	<h1>Lorem Ipsum Generator</h1>
+			<div class="clear"></div>
+
+			<div id="form">
+				<form name="ipsumgenerate" id="ipsumgenerate" action="post">
+					<input type="text" name="paragraphs" id="paragraphs">
+
+					<input type="submit" name="submit" value="Enter a Number of Paragraphs!" id="submit">
+				</form>
+			</div>
+
+			<div class="ipsum">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vel libero gravida, interdum purus sed, bibendum erat. Phasellus eget elit commodo ligula facilisis imperdiet ac non leo. Sed congue et libero a vehicula. Fusce tempus lacus dapibus porttitor ornare. Fusce vitae sapien sapien.
+				</p>
+				<p>
+					Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin lacus quam, molestie id tortor vitae, vehicula vehicula tellus. Vestibulum mauris lorem, dignissim sit amet sapien quis, pharetra fringilla sapien.
+				</p>
+				<p>
+					Integer nec sem aliquam, viverra diam vitae, congue nunc. Donec auctor scelerisque ipsum, at euismod metus iaculis id. Quisque sit amet arcu commodo, porta arcu eu, vulputate elit. Suspendisse convallis rhoncus augue aliquet semper. Proin tortor sapien, accumsan ac velit et, venenatis imperdiet nisl.
+				</p>
+				<p>
+					Phasellus eget turpis ac nunc placerat aliquet. Aenean auctor nisl varius, tristique dolor id, adipiscing neque. Phasellus velit ligula, consectetur ut nisl vitae, molestie pharetra mi. Curabitur molestie pretium venenatis. Nam convallis tincidunt metus, at mattis dui rutrum sit amet.
+				</p>
+				<p>
+					Sed condimentum id urna nec scelerisque. Morbi ut ornare ante, vel hendrerit metus. Etiam tincidunt velit et tincidunt tristique. Curabitur velit purus, tempor et pharetra in, ultrices sit amet magna. Vestibulum egestas quam libero, eget volutpat ante aliquet non.
+				</p>
+				<p>
+					Vivamus a dui id orci rhoncus bibendum ut ac mauris. Sed sodales ultrices turpis, id venenatis lectus accumsan a. Vestibulum nec orci varius, feugiat ipsum id, vulputate ipsum.
+				</p>
+				<p>
+					Proin quis nunc vulputate, vestibulum elit quis, pulvinar sapien. Vivamus eu mauris eget arcu molestie aliquet. Vestibulum suscipit, orci quis malesuada pellentesque, sem sapien semper mi, quis consequat mi eros sit amet turpis.
+				</p>
+				<p>
+					Maecenas quis posuere arcu. Phasellus tempor vitae nisl in suscipit. Nulla lacinia interdum lectus eget facilisis.
+				</p>
+				<p>
+					Nulla mollis ligula nec ipsum molestie rhoncus. Nullam lectus diam, molestie non mollis in, ultrices eu est. Sed iaculis, nunc eget suscipit adipiscing, massa dui vulputate eros, sit amet pellentesque metus erat eget mauris.
+				</p>
+				<p>
+					Nulla eget purus ligula. Nunc mollis eu nulla sed accumsan. Cras in gravida sem. Morbi ultricies sollicitudin purus vel fringilla. Nullam placerat risus non malesuada tincidunt.
+				</p>
+		</div>
+	  </div>
+	  <a href="#top">Back to Top</a>
+	</div>
+
+	<div id="carousel" class="wrapper5">
+		<h1>CAROUSEL</h1>
+
+		<div id="thumbnail-wrapper">
+			<a id="left" class="arrow"><img src="images/l.png"></a>
+			<div id="thumbnails">
+				<img class="thumb" id="image1" src="http://lorempixel.com/500/500/city/1" alt="City1" title="City1">
+				<img class="thumb" id="image2" src="http://lorempixel.com/500/500/city/2" alt="City2" title="City2">
+				<img class="thumb" id="image3" src="http://lorempixel.com/500/500/city/3" alt="City3" title="City3">
+				<img class="thumb" id="image4" src="http://lorempixel.com/500/500/city/4" alt="City4" title="City4">
+				<img class="thumb" id="image5" src="http://lorempixel.com/500/500/city/5" alt="City5" title="City5">
+				<img class="thumb" id="image6" src="http://lorempixel.com/500/500/city/6" alt="City6" title="City6">
+				<img class="thumb" id="image7" src="http://lorempixel.com/500/500/city/7" alt="City7" title="City7">
+				<img class="thumb" id="image8" src="http://lorempixel.com/500/500/city/8" alt="City8" title="City8">
+				<div class="clear"></div>
+			</div>
+			<a id="right" class="arrow"><img src="images/r.png"></a>
+		</div>
+		<img id="bigimage" src="http://lorempixel.com/500/500/city/1" alt="City1" title="City1">
+		<a href="#top">Back to Top</a>
+	</div>
+
+	<footer>
+		<p>Example Code by Catherine Gelinas</p>
+	</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="js/jquery-ui-1.10.3.custom.min.js"></script>
+		<script src="js/index.min.js"></script>
+		<script src="js/jquery.animate-colors-min.js"></script>
+		<script src="js/script.js"></script>
+    <script src="js/index.js"></script>
+	</body>
+</html>

@@ -1,0 +1,196 @@
+html{
+      height: 100%;
+      background: url('../images/dots.png') center center fixed, url('../images/bg.jpg') center center no-repeat fixed #252326;
+      -webkit-background-size: auto, cover;
+         -moz-background-size: auto, cover;
+           -o-background-size: auto, cover;
+              background-size: auto, cover;
+    }
+
+body {
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight:300;
+	font-size: 16px;
+	text-align: left;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 3em;
+	font-weight: 500;
+	position: relative;
+	left: -15px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	height: 100px;
+	text-align: center;
+	padding: 10px;
+}
+
+.headings {
+	width: 960px;
+}
+
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.header {
+	width: 320px;
+	font-size: 1.5em;
+	float: left;
+	text-align: center;
+}
+
+.header .titles {
+	position: relative;
+	right: 10px;
+}
+
+#two {
+	position: relative;
+	right: 20px;
+}
+
+#three {
+	position: relative;
+	right: 30px;
+}
+
+.header2 {
+	width: 400px;
+	margin: 0 auto;
+	font-size: 2em;
+	float: left;
+	text-align: center;
+}
+
+#guessed_letters_box, #countdown, #hangman {
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+	float: left;
+	margin-right: 60px;
+	margin-left: 50px;
+}
+
+#guessed_letters_box {
+	color: white;
+	font-size: 1em;
+	padding: 20px;
+}
+
+#hangman img {
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+#countdown {
+	text-align: center;
+	display: table;
+}
+
+#num_guesses {
+	text-align: center;
+	font-size: 8em;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.gradient {
+	/* Fallback */
+	background-image: url(../images/gradient.png) no-repeat;
+
+	/* CSS3 Gradient */
+	background-image: -webkit-gradient(radial, 0% 0%, 0% 100%, from(rgba(213,246,255,1)), to(rgba(213,246,255,0)));
+	background-image: -webkit-radial-gradient(50% 50%, 40% 40%, rgba(213,246,255,1), rgba(213,246,255,0));
+	background-image: -moz-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+	background-image: -ms-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+	background-image: -o-radial-gradient(50% 50%, 50% 50%, rgba(213,246,255,1), rgba(213,246,255,0));
+}
+
+#main {
+	padding: 20px;
+	padding-top: 50px;
+	width: 400px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+#main div {
+	width: 50px;
+	height: 50px;
+	font-size: 2em;
+	text-align: center;
+	padding: 5px;
+	float: left;
+	background-color: white;
+	margin: 5px;
+}
+
+#guessing_area {
+	padding: 30px;
+	padding-top: 50px;
+	width: 860px;
+	height: 220px;
+	margin: 50px auto;
+}
+
+.centering {
+	width: 150px;
+	margin: 0 auto;
+}
+
+#letter_guess, #word_answer {
+	text-align: center;
+	font-size: 2em;
+	height: 50px;
+	width: 140px;
+	display: block;
+	margin: 0 auto;
+}
+
+#letters_area, #word_area {
+	width: 375px;
+	height: 150px;
+	float: left;
+}
+
+input[type="submit"] {
+	height: 30px;
+	width: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
