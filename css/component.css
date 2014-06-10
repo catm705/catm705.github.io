@@ -74,6 +74,14 @@ Transform and style the two planes
 	font-size: 0.75em;
 }
 
+.movie .poster .info {
+	font-size: .9em;
+}
+
+.movie .info blockquote {
+	font-size: .9em;
+}
+
 /*************************************
 Shadow beneath the 3D object
 **************************************/
