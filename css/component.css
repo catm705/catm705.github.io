@@ -11,6 +11,10 @@ Build the scene and rotate on hover
 	margin-left: 13%;
 }
 
+.scene h4 {
+	text-align: center;
+}
+
 .scene {
 	width: 260px;
 	height: 400px;
@@ -177,15 +181,15 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie #poster1 {
-  background-image: url(../images/matrix.jpg);
+  background-image: url(../images/hackers.jpg);
 }
 
 .scene:nth-child(2) .movie #poster2 {
-  background-image: url(../images/racedriver.PNG);
+  background-image: url(../images/matrix.jpg);
 }
 
 .scene:nth-child(3) .movie #poster3 {
-  background-image: url(../images/hackers.jpg);
+  background-image: url(../images/racedriver.PNG);
 }
 
 
