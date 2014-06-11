@@ -177,7 +177,7 @@ Posters and still images
 **************************************/
 
 .scene:nth-child(1) .movie #poster1 {
-  background-image: url(../images/mikime.jpg);
+  background-image: url(../images/matrix.jpg);
 }
 
 .scene:nth-child(2) .movie #poster2 {
@@ -185,7 +185,7 @@ Posters and still images
 }
 
 .scene:nth-child(3) .movie #poster3 {
-  background-image: url(../images/cg.jpg);
+  background-image: url(../images/hackers.jpg);
 }
 
 
