@@ -114,6 +114,18 @@ span.tiny {
   height: 75px;
 }
 
+.bounce {
+  -webkit-animation-name: bounce;
+          animation-name: bounce;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
 .scene {
   -webkit-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
      -moz-box-shadow: 0px 0px 15px 5px rgba(255, 255, 190, .75);
