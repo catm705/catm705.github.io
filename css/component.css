@@ -5,7 +5,7 @@
 }
 
 /*************************************
-Build the scene and rotate on hover
+  Build the scene and rotate on hover
 **************************************/
 .wrapper {
 	margin-left: 13%;
@@ -55,7 +55,7 @@ Transform and style the two planes
 .movie .info {
 	position: absolute;
 	width: 260px;
-	height: 400px;
+	height: 350px;
 	background-color: #fff;
 	-webkit-backface-visibility: hidden;
 	   -moz-backface-visibility: hidden;
@@ -71,6 +71,8 @@ Transform and style the two planes
 }
 
 .movie .info {
+	width: 260px;
+	height: 350px;
 	-webkit-transform: rotateY(90deg) translateZ(130px);
 	   -moz-transform: rotateY(90deg) translateZ(130px);
 	        transform: rotateY(90deg) translateZ(130px);
@@ -110,6 +112,8 @@ Shadow beneath the 3D object
 
 .csstransforms3d .movie:hover::after {
 	box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
+	width: 260px;
+	height: 350px;
 }
 
 /*************************************
@@ -174,6 +178,11 @@ Generate "lighting" using box shadows
 .csstransforms3d .movie:hover .info,
 .csstransforms3d .movie:hover .info header {
 	box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
+}
+
+.csstransforms3d .movie:hover .info {
+	width: 237px;
+	height: 331px;
 }
 
 /*************************************
