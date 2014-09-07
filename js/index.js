@@ -1,7 +1,7 @@
 $(document).ready(function(){
   // Hamburger Responsive Menu Code
-    $('#hamburger').click(function(){
-      $('#hide').toggle();
+  $('#hamburger').click(function(){
+    $('#hide').toggle();
   });
     // Then look up 'throttle' - reduces the callback fn firing.
 
@@ -12,11 +12,11 @@ $(document).ready(function(){
       }
     });
 
-
-    $('#slide a').click(function(){
+  $('#slide a').click(function(){
     $('html, body').animate({
         scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
     return false;
-});
+  });
+
 });
