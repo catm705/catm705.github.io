@@ -251,11 +251,6 @@ span.tiny {
   .wrapper {
     margin-left: -8%;
   }
-
-  span.noshow {
-    display: none;
-  }
-
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -276,13 +271,13 @@ span.tiny {
   #header-name {
     position: relative;
     top: -50px;
-    left: 40px;
+    left: -70px;
   }
 
   #header-name h1 {
     position: relative;
     top: -20px;
-    left: -15px;
+    left: -22px;
     font-size: 2.5em;
   }
 
@@ -290,6 +285,7 @@ span.tiny {
     position: relative;
     top: -30px;
     left: -19px;
+    font-size: 11px;
   }
 
   #bubble2 {
@@ -302,6 +298,10 @@ span.tiny {
     padding: 40px;
     padding-left: 20px;
     width: 85px;
+  }
+  
+  #bubble2 .noshow {
+    display: none;
   }
 
   #bubble2 img {
