@@ -211,9 +211,7 @@ span.tiny {
 }
 
 @media (max-width: 320px) {
-
   #wrapper {
-    /*background-image: url(../images/mobile_bg.jpg);*/
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -347,7 +345,7 @@ span.tiny {
   #wrapper {
     width: 960px;
     height: 900px;
-    background-image: url(../images/mobile_bg.jpg);
+    background-image: url(../images/paris.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
