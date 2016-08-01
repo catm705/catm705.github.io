@@ -323,9 +323,18 @@ span.tiny {
     width: 100%;
   }
   
+  .navbar {
+    opacity: 0.8;
+  }
+  
+  .navbar .nav {
+    left: -60px;
+    top: 10px;
+  }
+  
   .navbar li a {
     color: white;
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 }
 
