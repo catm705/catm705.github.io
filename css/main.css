@@ -139,10 +139,10 @@ span.tiny {
 @media (max-width: 400px) {
 
   #wrapper {
-    background-image: url(../images/landscape_bg.jpg);
+    background-image: url(../images/paris.jpg);
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     width: 400px;
     height: 900px;
   }
@@ -198,14 +198,14 @@ span.tiny {
   h4 {
     color: white;
   }
-
-  /*WHAT IS HAPPENING HERE? */
+  
   .noshow {
     display: none;
   }
 
   .container {
     background-color: black;
+    width: 415px;
   }
 
 }
