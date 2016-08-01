@@ -56,7 +56,6 @@
    -webkit-transform: rotate(0deg) scale(1.07);
       -moz-transform: rotate(0deg) scale(1.07);
            transform: rotate(0deg) scale(1.07);
-
 }
 
 #bubble2 {
@@ -137,14 +136,13 @@ span.tiny {
 }
 
 @media (max-width: 400px) {
-
   #wrapper {
     background-image: url(../images/paris.jpg);
     background-position: left top;
     background-repeat: no-repeat;
     background-size: 100%;
     width: 400px;
-    height: 900px;
+    height: 265px;
   }
 
   #header-name {
@@ -198,7 +196,7 @@ span.tiny {
   h4 {
     color: white;
   }
-  
+
   .noshow {
     display: none;
   }
@@ -251,8 +249,7 @@ span.tiny {
   }
 }
 
-@media only screen and (max-device-width: 480px) {
-
+@media only screen and (max-device-width: 480px) { /*Portrait*/
   #wrapper {
     width: 630px;
     height: 405px;
@@ -297,7 +294,7 @@ span.tiny {
     padding-left: 20px;
     width: 85px;
   }
-  
+
   .noshow {
     display: none;
   }
@@ -310,31 +307,31 @@ span.tiny {
   #first-page-arrow-down {
     display: none;
   }
-  
+
   #hamburger {
     background: black !important;
     top: 5px !important;
     left: 5px !important;
   }
-  
+
   .wrapper {
     width: 100%;
   }
-  
+
   .navbar {
     opacity: 0.8;
   }
-  
+
   .navbar .nav {
     left: -60px;
     top: 10px;
   }
-  
+
   .navbar li a {
     color: white;
     font-size: 0.8em;
   }
-  
+
   .scene {
     margin-top: -50px;
   }
