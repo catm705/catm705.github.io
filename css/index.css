@@ -1827,7 +1827,7 @@ legend + .control-group {
   min-width: 160px;
   padding: 5px 0;
   margin: 2px 0 0;
-  list-style: none;
+  list-style-type: none;
   background-color: #ffffff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -2707,21 +2707,21 @@ input[type="submit"].btn.btn-mini {
           border-radius: 0 0 6px 6px;
 }
 =======
-.open {		
-   *z-index: 1000;		
-}		
- 		
- .open > .dropdown-menu {		
-   display: block;		
- }		
- 		
- .dropdown-backdrop {		
-   position: fixed;		
-   top: 0;		
-   right: 0;		
-   bottom: 0;		
-   left: 0;		
-   z-index: 990;		
+.open {
+   *z-index: 1000;
+}
+
+ .open > .dropdown-menu {
+   display: block;
+ }
+
+ .dropdown-backdrop {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 990;
  }
 >>>>>>> 2f43cd9... Update index.css
 

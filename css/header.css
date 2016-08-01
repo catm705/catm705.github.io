@@ -132,5 +132,6 @@ footer {
     position: relative;
     top: 30px;
     background-color: black;
+    list-style-type: none;
   }
 }
