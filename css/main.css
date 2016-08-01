@@ -208,46 +208,6 @@ span.tiny {
 
 }
 
-@media (max-width: 320px) {
-  #wrapper {
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 400px;
-    height: 900px;
-  }
-
-  #header-name {
-    position: relative;
-    top: -50px;
-    left: 30px;
-  }
-
-  #header-name h1 {
-    position: relative;
-    top: -30px;
-    left: -20px;
-    font-size: 1.7em;
-  }
-
-  #header-name p {
-    position: relative;
-    top: -40px;
-    left: -19px;
-    font-size: 0.8em;
-    width: 175px;
-  }
-
-  #bubble2 {
-    position: relative;
-    top: -175px;
-    left: -120px;
-  }
-
-  .wrapper {
-    margin-left: -8%;
-  }
-}
 
 @media only screen and (max-device-width: 480px) { /*Portrait*/
   #wrapper {
@@ -338,7 +298,7 @@ span.tiny {
 }
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-device-width : 320px) {
+/*@media only screen and (max-device-width : 320px) {
   #wrapper {
     width: 960px;
     height: 900px;
@@ -385,4 +345,4 @@ span.tiny {
     margin-left: -5%;
   }
 
-}
+}*/
