@@ -322,6 +322,11 @@ span.tiny {
   .wrapper {
     width: 100%;
   }
+  
+  .navbar li a {
+    color: white;
+    font-size: 0.9em;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
