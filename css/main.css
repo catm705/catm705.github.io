@@ -25,6 +25,7 @@
 
 #header-name h1 {
   font-size: 4em;
+  margin-left: -10px;
 }
 
 .navbar-header {
