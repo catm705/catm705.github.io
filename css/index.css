@@ -887,31 +887,8 @@ pre {
           border-radius: 4px;
 }
 
-pre.prettyprint {
-  margin-bottom: 20px;
-}
-
-pre code {
-  padding: 0;
-  color: inherit;
-  white-space: pre;
-  white-space: pre-wrap;
-  background-color: transparent;
-  border: 0;
-}
-
-.pre-scrollable {
-  max-height: 340px;
-  overflow-y: scroll;
-}
-
 form {
   margin: 0 0 20px;
-}
-
-legend small {
-  font-size: 15px;
-  color: #999999;
 }
 
 label,

@@ -59,10 +59,6 @@ nav a {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4569b2', endColorstr='#4062a5',GradientType=0 );
 }
 
-/*
-The white stripes in the hamburger button
-*/
-
 #hamburger {
   position: fixed;
   top: 8px;
@@ -95,8 +91,6 @@ The white stripes in the hamburger button
 .navbar-header {
   font-size: 1.2em;
 }
-
-
 
 /*FOOTER*/
 footer {
