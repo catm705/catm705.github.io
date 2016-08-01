@@ -314,7 +314,9 @@ span.tiny {
   }
   
   #hamburger {
-    background: black;
+    background: black !important;
+    top: 5px;
+    left: 5px;
   }
   
   .wrapper {
