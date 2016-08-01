@@ -256,7 +256,7 @@ span.tiny {
 @media only screen and (max-device-width: 480px) {
 
   #wrapper {
-    width: 480px;
+    width: 630px;
     height: 265px;
     background-image: url(../images/paris.jpg);
     background-position: left top;
@@ -265,7 +265,7 @@ span.tiny {
   }
 
   .container {
-    width: 480px;
+    width: 630px;
   }
 
   #header-name {
