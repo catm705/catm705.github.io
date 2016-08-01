@@ -336,6 +336,10 @@ span.tiny {
     color: white;
     font-size: 0.8em;
   }
+  
+  .scene {
+    margin-top: -30px;
+  }
 }
 
 /* Smartphones (portrait) ----------- */
