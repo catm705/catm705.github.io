@@ -122,6 +122,9 @@ footer {
 
     #hamburger {
       display: block;
+      top: 3px;
+      left: 5px;
+      background: black;
     }
 
     ul.nav.navbar-nav {
