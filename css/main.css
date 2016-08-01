@@ -263,14 +263,14 @@ span.tiny {
   #wrapper {
     width: 480px;
     height: 900px;
-    background-image: url(../images/mobile_bg.jpg);
+    background-image: url(../images/paris.jpg);
     background-position: left top;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   }
 
   .container {
-    width: 480px;
+    width: 415px;
   }
 
   #header-name {
