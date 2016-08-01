@@ -2573,6 +2573,7 @@ input[type="submit"].btn.btn-mini {
   outline: 0;
 }
 
+<<<<<<< HEAD
 .btn-group > .btn + .dropdown-toggle {
   *padding-top: 5px;
   padding-right: 8px;
@@ -2705,6 +2706,24 @@ input[type="submit"].btn.btn-mini {
      -moz-border-radius: 0 0 6px 6px;
           border-radius: 0 0 6px 6px;
 }
+=======
+.open {		
+   *z-index: 1000;		
+}		
+ 		
+ .open > .dropdown-menu {		
+   display: block;		
+ }		
+ 		
+ .dropdown-backdrop {		
+   position: fixed;		
+   top: 0;		
+   right: 0;		
+   bottom: 0;		
+   left: 0;		
+   z-index: 990;		
+ }
+>>>>>>> 2f43cd9... Update index.css
 
 .nav {
   margin-bottom: 20px;
