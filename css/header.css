@@ -92,6 +92,8 @@ The white stripes in the hamburger button
   font-size: 1.2em;
 }
 
+
+
 /*FOOTER*/
 footer {
   height: 30px;
@@ -120,6 +122,7 @@ footer {
 
     ul.nav.navbar-nav {
       float: none;
+      list-style-type: none;
     }
 
   .navbar .nav > li {
