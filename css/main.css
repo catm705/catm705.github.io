@@ -257,7 +257,7 @@ span.tiny {
 
   #wrapper {
     width: 480px;
-    height: 300px;
+    height: 265px;
     background-image: url(../images/paris.jpg);
     background-position: left top;
     background-repeat: no-repeat;
@@ -265,7 +265,7 @@ span.tiny {
   }
 
   .container {
-    width: 400px;
+    width: 480px;
   }
 
   #header-name {
