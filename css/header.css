@@ -136,3 +136,10 @@ footer {
     list-style-type: none !important;
   }
 }
+
+@media only screen and (max-device-width: 680px) {
+  .navbar .nav {
+    left: 0px;
+    top: 10px;
+  }
+}
