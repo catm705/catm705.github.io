@@ -296,3 +296,14 @@ span.tiny {
     margin-top: -50px;
   }
 }
+
+@media only screen and (max-device-width: 680px) {
+  #wrapper {
+    width: 680px;
+    background-size: cover;
+  }
+
+  .container {
+    width: 680px;
+  }
+}
